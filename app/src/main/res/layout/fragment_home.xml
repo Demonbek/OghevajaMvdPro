@@ -31,6 +31,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:drawable/ic_media_rew"
+            android:clickable="true"
+            android:focusable="true"
             android:textSize="36sp" />
 
         <TextView
@@ -39,7 +41,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="1"
             android:textSize="36sp" />
 
         <Button
@@ -48,6 +49,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@android:drawable/ic_media_ff"
+            android:clickable="true"
+            android:focusable="true"
             android:textSize="36sp" />
     </LinearLayout>
 
@@ -55,6 +58,8 @@
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
         android:text="Выбрать"
         android:textSize="36sp" />
 
@@ -62,6 +67,8 @@
         android:id="@+id/brnd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
         android:text="Случайный билет"
         android:textSize="36sp" />
 
