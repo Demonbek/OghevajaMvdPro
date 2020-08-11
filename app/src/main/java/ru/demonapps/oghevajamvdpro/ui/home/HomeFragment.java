@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+import  java.util.Random;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
@@ -69,7 +69,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.brnd:
-
+                Random random = new Random();
+                bilet = random.nextInt(10) + 1;
+                Intent intent2 = new Intent(getActivity(), Bilet.class);
+                intent2.putExtra("bilet", bilet);
+                startActivity(intent2);
+                break;
             default:
                 break;
         }

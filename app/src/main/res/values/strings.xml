@@ -10,4 +10,8 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="a">А</string>
+    <string name="b">Б</string>
+    <string name="v">В</string>
+    <string name="g">Г</string>
 </resources>
