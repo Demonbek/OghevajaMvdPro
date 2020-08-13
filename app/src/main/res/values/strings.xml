@@ -17,4 +17,8 @@
     <string name="title_activity_ocenka">Результат</string>
     <string name="tab_text_1">Оценка</string>
     <string name="tab_text_2">Ошибки</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ocenka">Ваша оценка</string>
+    <string name="oshibki">Ваши ошибки</string>
 </resources>

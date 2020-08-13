@@ -13,7 +13,7 @@ import java.util.Objects;
 
 public class Bilet extends AppCompatActivity {
     String[] bilet, otvet;
-    String youOtvet;
+    String youOtvet, oshibki;
     TextView textVopros, textVsego, textVerno;
     Button btnA, btnB, btnV, btnG;
     int i, vsego, verno;
@@ -72,6 +72,7 @@ public class Bilet extends AppCompatActivity {
         btnV = findViewById(R.id.btnV);
         btnG = findViewById(R.id.btnG);
         i=0; vsego=0; verno=0;
+        oshibki="";
         textVopros.setText(bilet[i]);
         textVerno.setText(String.valueOf(vsego));
         textVerno.setText(String.valueOf(verno));
@@ -142,11 +143,16 @@ public class Bilet extends AppCompatActivity {
       verno++;
 
      }
+     else {
+         oshibki = oshibki+bilet[i] + "\n\nПравильный ответ: "+ otvet[i]+", вы ответили: "+youOtvet+"\n\n";
+     }
      textVsego.setText(String.valueOf(vsego));
      textVerno.setText(String.valueOf(verno));
     }
     public void  vivodOcenki(){
         Intent intent=new Intent(this, Ocenka.class);
+        intent.putExtra("verno", verno);
+        intent.putExtra("oshibki", oshibki);
         startActivity(intent);
     }
 }

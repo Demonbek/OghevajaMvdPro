@@ -1,39 +1,59 @@
 package ru.demonapps.oghevajamvdpro;
 
-import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.tabs.TabLayout;
-
-import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.view.Menu;
-import android.view.MenuItem;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 
-import ru.demonapps.oghevajamvdpro.ui.main.SectionsPagerAdapter;
-
-public class Ocenka extends AppCompatActivity {
-
+public class Ocenka extends AppCompatActivity implements View.OnClickListener {
+    Button btnOcenka, btnOshibki;
+    TextView textOcenka, textOshibki;
+    ImageView imageOcenka;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ocenka);
-        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-        ViewPager viewPager = findViewById(R.id.view_pager);
-        viewPager.setAdapter(sectionsPagerAdapter);
-        TabLayout tabs = findViewById(R.id.tabs);
-        tabs.setupWithViewPager(viewPager);
-        FloatingActionButton fab = findViewById(R.id.fab);
-
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        Intent intent = getIntent();
+        int verno = intent.getIntExtra("verno",0);
+        String oshibki = intent.getStringExtra("oshibki");
+        textOcenka = findViewById(R.id.textOcenka);
+        textOshibki = findViewById(R.id.textOshibki);
+        imageOcenka = findViewById(R.id.imageOcenka);
+        btnOcenka = findViewById(R.id.btnOcenka);
+        btnOcenka.setOnClickListener(this);
+        btnOshibki = findViewById(R.id.btnOshibki);
+        btnOshibki.setOnClickListener(this);
+        textOshibki.setText(oshibki);
+        ImageView ocenka = findViewById(R.id.imageOcenka);
+        if (verno<16){
+            ocenka.setImageResource(R.drawable.ne_zachet);
+        }
+        else{
+            ocenka.setImageResource(R.drawable.zachet);
+        }
     }
+
+    @Override
+    public void onClick(View view) {
+        switch(view.getId())  {
+            case  R.id.btnOcenka: // идентификатор "@+id/button1"
+                textOshibki.setVisibility(View.GONE);
+                imageOcenka.setVisibility(View.VISIBLE);
+                textOcenka.setText(R.string.ocenka);
+                break;
+            case  R.id.btnOshibki: // идентификатор "@+id/button1"
+                textOshibki.setVisibility(View.VISIBLE);
+                imageOcenka.setVisibility(View.GONE);
+                textOcenka.setText(R.string.oshibki);
+                break;
+            default:
+                break;
+        }
+
+    }
+
 }
