@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bilet1"
+        android:title="Билет 1"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/bilet2"
+        android:title="Билет 2"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/bilet3"
+        android:title="Билет 3"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/bilet4"
+        android:title="Билет 4"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/bilet5"
+        android:title="Билет 5"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/bilet6"
+        android:title="Билет 6"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/bilet7"
+        android:title="Билет 7"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/bilet8"
+        android:title="Билет 8"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/bilet9"
+        android:title="Билет 9"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/bilet10"
+        android:title="Билет 10"
+        tools:ignore="HardcodedText" />
+</menu>

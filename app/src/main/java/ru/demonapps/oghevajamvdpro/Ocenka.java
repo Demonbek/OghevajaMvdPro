@@ -3,6 +3,7 @@ package ru.demonapps.oghevajamvdpro;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,7 +12,7 @@ import android.widget.TextView;
 
 public class Ocenka extends AppCompatActivity implements View.OnClickListener {
     Button btnOcenka, btnOshibki;
-    TextView textOcenka, textOshibki;
+    TextView textOcenka, textOshibki, textKolOsh;
     ImageView imageOcenka;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,18 +23,21 @@ public class Ocenka extends AppCompatActivity implements View.OnClickListener {
         String oshibki = intent.getStringExtra("oshibki");
         textOcenka = findViewById(R.id.textOcenka);
         textOshibki = findViewById(R.id.textOshibki);
+        textKolOsh = findViewById(R.id.textKolOsh);
         imageOcenka = findViewById(R.id.imageOcenka);
         btnOcenka = findViewById(R.id.btnOcenka);
         btnOcenka.setOnClickListener(this);
         btnOshibki = findViewById(R.id.btnOshibki);
         btnOshibki.setOnClickListener(this);
+        textKolOsh.setText("У Вас: "+(20-verno)+" ошибок.");
         textOshibki.setText(oshibki);
-        ImageView ocenka = findViewById(R.id.imageOcenka);
         if (verno<16){
-            ocenka.setImageResource(R.drawable.ne_zachet);
+            imageOcenka.setImageResource(R.drawable.ne_zachet);
+            textKolOsh.setBackgroundColor(Color.parseColor("#CDE53935"));
         }
         else{
-            ocenka.setImageResource(R.drawable.zachet);
+            imageOcenka.setImageResource(R.drawable.zachet);
+            textKolOsh.setBackgroundColor(Color.parseColor("#CB43A047"));
         }
     }
 

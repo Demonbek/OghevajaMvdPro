@@ -1,16 +1,16 @@
-package ru.demonapps.oghevajamvdpro.ui.gallery;
+package ru.demonapps.oghevajamvdpro.ui.otvety;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class OtvetyViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public OtvetyViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("Фрагмент Ответы");
     }
 
     public LiveData<String> getText() {
