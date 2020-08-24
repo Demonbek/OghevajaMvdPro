@@ -9,7 +9,7 @@
 
     <string name="menu_home">Главная</string>
     <string name="menu_otvety">Ответы</string>
-    <string name="menu_slideshow">Теория</string>
+    <string name="menu_teory">Теория</string>
     <string name="a">А</string>
     <string name="b">Б</string>
     <string name="v">В</string>
@@ -24,4 +24,9 @@
     <string name="kol_vo_oshibok">Ошибок:</string>
     <string name="demonapps">DemonApps</string>
     <string name="share">Поделиться...</string>
+    <!--- Меню приказы -->
+    <string name="action_tth">ТТХ ПМ-9мм</string>
+    <string name="action_tthaks">ТТХ АКС-74У</string>
+    <string name="action_prikaz880">Пр. МВД РФ N 880</string>
+    <string name="action_glava5">Глава 5 ФЗ ´О полиции´</string>
 </resources>

@@ -18,8 +18,8 @@
         tools:layout="@layout/fragment_otvety" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="ru.demonapps.oghevajamvdpro.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_teory"
+        android:name="ru.demonapps.oghevajamvdpro.ui.teory.TeoryFragment"
+        android:label="@string/menu_teory"
+        tools:layout="@layout/fragment_teory" />
 </navigation>

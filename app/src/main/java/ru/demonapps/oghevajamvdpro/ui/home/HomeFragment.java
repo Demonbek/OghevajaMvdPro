@@ -11,11 +11,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import  java.util.Random;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
-
 import ru.demonapps.oghevajamvdpro.Bilet;
-import ru.demonapps.oghevajamvdpro.MainActivity;
 import ru.demonapps.oghevajamvdpro.R;
 
 public class HomeFragment extends Fragment implements View.OnClickListener {

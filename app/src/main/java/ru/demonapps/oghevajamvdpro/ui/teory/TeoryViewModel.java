@@ -1,16 +1,16 @@
-package ru.demonapps.oghevajamvdpro.ui.slideshow;
+package ru.demonapps.oghevajamvdpro.ui.teory;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class TeoryViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public TeoryViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("This is teory fragment");
     }
 
     public LiveData<String> getText() {
