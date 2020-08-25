@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -30,7 +29,8 @@
                     android:layout_weight="1"
                     android:text="0"
                     android:textColor="#8BC34A"
-                    android:textSize="30sp" />
+                    android:textSize="30sp"
+                    tools:ignore="HardcodedText" />
 
                 <TextView
                     android:id="@+id/textRazdel"
@@ -38,7 +38,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="/"
-                    android:textSize="30sp" />
+                    android:textSize="30sp"
+                    tools:ignore="HardcodedText" />
 
                 <TextView
                     android:id="@+id/textVsego"
@@ -46,7 +47,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="0"
-                    android:textSize="30sp" />
+                    android:textSize="30sp"
+                    tools:ignore="HardcodedText" />
             </LinearLayout>
 
             <TextView
@@ -67,31 +69,43 @@
 
         <Button
             android:id="@+id/btnA"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/a" />
+            android:text="@string/a"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btvB"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/b" />
+            android:text="@string/b"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnV"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/v" />
+            android:text="@string/v"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnG"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/g" />
+            android:text="@string/g"
+            android:textSize="18sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

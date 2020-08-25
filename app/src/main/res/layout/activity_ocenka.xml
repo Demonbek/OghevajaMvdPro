@@ -30,18 +30,22 @@
 
         <Button
             android:id="@+id/btnOcenka"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Оценка"
+            android:textSize="18sp"
             tools:ignore="ButtonStyle,HardcodedText" />
 
         <Button
             android:id="@+id/btnOshibki"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Ошибки"
+            android:textSize="18sp"
             android:visibility="visible"
             tools:ignore="ButtonStyle,HardcodedText" />
 

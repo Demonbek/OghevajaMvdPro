@@ -29,4 +29,7 @@
     <string name="action_tthaks">ТТХ АКС-74У</string>
     <string name="action_prikaz880">Пр. МВД РФ N 880</string>
     <string name="action_glava5">Глава 5 ФЗ ´О полиции´</string>
+    <string name="vibor">Выбрать</string>
+    <string name="rnd_bilet">Случайный билет</string>
+    <string name="vibery_bilet">Выберите билет:</string>
 </resources>
