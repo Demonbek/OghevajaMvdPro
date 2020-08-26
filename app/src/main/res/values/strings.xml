@@ -19,6 +19,7 @@
     <string name="menu_otvety">Ответы</string>
     <string name="menu_teory">Теория</string>
     <string name="menu_pravila">Правила</string>
+    <string name="menu_onas">О программе</string>
     <string name="a">А</string>
     <string name="b">Б</string>
     <string name="v">В</string>
@@ -45,4 +46,5 @@
 - 20 вопросов с вариантами ответов\n
 - возможность сделать не более 4 ошибок\n
 - оценка зачёт/незачёт…</string>
+
 </resources>

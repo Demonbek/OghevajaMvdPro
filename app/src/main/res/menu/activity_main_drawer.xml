@@ -28,5 +28,9 @@
             android:id="@+id/nav_praila"
             android:icon="@android:drawable/ic_menu_info_details"
             android:title="@string/menu_pravila" />
+        <item
+            android:id="@+id/nav_onas"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/menu_onas" />
     </group>
 </menu>

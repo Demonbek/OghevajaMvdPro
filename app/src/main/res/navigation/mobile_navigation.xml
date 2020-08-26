@@ -35,4 +35,9 @@
         android:name="ru.demonapps.oghevajamvdpro.ui.PravilaFragment"
         android:label="@string/menu_pravila"
         tools:layout="@layout/fragment_pravila" />
+    <fragment
+        android:id="@+id/nav_onas"
+        android:name="ru.demonapps.oghevajamvdpro.ui.OnasFragment"
+        android:label="@string/menu_onas"
+        tools:layout="@layout/fragment_pravila" />
 </navigation>
