@@ -1,3 +1,11 @@
+/*
+ * *
+ *  * Created by DemonApps on 26.08.20 12:34
+ *  * Copyright (c) 2020 . All rights reserved.
+ *  * Last modified 26.08.20 11:23
+ *
+ */
+
 package ru.demonapps.oghevajamvdpro;
 
 import android.content.Intent;
@@ -32,7 +40,7 @@ public class MainActivity extends AppCompatActivity  {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_otvety, R.id.nav_teory)
+                R.id.nav_home, R.id.nav_otvety, R.id.nav_teory, R.id.nav_praila)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);

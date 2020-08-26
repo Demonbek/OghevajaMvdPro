@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by DemonApps on 26.08.20 12:34
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 26.08.20 12:14
+  ~  */
+  -->
+
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
@@ -14,7 +22,11 @@
             android:title="@string/menu_otvety" />
         <item
             android:id="@+id/nav_teory"
-            android:icon="@android:drawable/ic_menu_info_details"
+            android:icon="@android:drawable/ic_menu_edit"
             android:title="@string/menu_teory" />
+        <item
+            android:id="@+id/nav_praila"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/menu_pravila" />
     </group>
 </menu>

@@ -1,3 +1,11 @@
+/*
+ * *
+ *  * Created by DemonApps on 26.08.20 12:34
+ *  * Copyright (c) 2020 . All rights reserved.
+ *  * Last modified 10.08.20 21:40
+ *
+ */
+
 package ru.demonapps.oghevajamvdpro.ui.home;
 
 import androidx.lifecycle.LiveData;

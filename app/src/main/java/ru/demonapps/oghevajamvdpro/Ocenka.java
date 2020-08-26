@@ -1,3 +1,11 @@
+/*
+ * *
+ *  * Created by DemonApps on 26.08.20 12:34
+ *  * Copyright (c) 2020 . All rights reserved.
+ *  * Last modified 24.08.20 18:38
+ *
+ */
+
 package ru.demonapps.oghevajamvdpro;
 
 import androidx.appcompat.app.AppCompatActivity;

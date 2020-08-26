@@ -1,3 +1,11 @@
+<!--
+  ~ /**
+  ~  * Created by DemonApps on 26.08.20 12:34
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 26.08.20 12:17
+  ~  */
+  -->
+
 <resources>
     <string name="app_name">Огневая подготовка</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -10,6 +18,7 @@
     <string name="menu_home">Главная</string>
     <string name="menu_otvety">Ответы</string>
     <string name="menu_teory">Теория</string>
+    <string name="menu_pravila">Правила</string>
     <string name="a">А</string>
     <string name="b">Б</string>
     <string name="v">В</string>
@@ -23,7 +32,7 @@
     <string name="oshibki">Ваши ошибки</string>
     <string name="kol_vo_oshibok">Ошибок:</string>
     <string name="demonapps">DemonApps</string>
-    <string name="share">Поделиться...</string>
+    <string name="share">Поделиться…</string>
     <!--- Меню приказы -->
     <string name="action_tth">ТТХ ПМ-9мм</string>
     <string name="action_tthaks">ТТХ АКС-74У</string>
@@ -32,4 +41,8 @@
     <string name="vibor">Выбрать</string>
     <string name="rnd_bilet">Случайный билет</string>
     <string name="vibery_bilet">Выберите билет:</string>
+    <string name="pravila"> Всё как при сдаче теоретического зачёта по огневой подготовке в МВД РФ во время годовой проверки:\n
+- 20 вопросов с вариантами ответов\n
+- возможность сделать не более 4 ошибок\n
+- оценка зачёт/незачёт…</string>
 </resources>

@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by DemonApps on 26.08.20 12:34
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 26.08.20 12:14
+  ~  */
+  -->
+
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -22,4 +30,9 @@
         android:name="ru.demonapps.oghevajamvdpro.ui.teory.TeoryFragment"
         android:label="@string/menu_teory"
         tools:layout="@layout/fragment_teory" />
+    <fragment
+        android:id="@+id/nav_praila"
+        android:name="ru.demonapps.oghevajamvdpro.ui.PravilaFragment"
+        android:label="@string/menu_pravila"
+        tools:layout="@layout/fragment_pravila" />
 </navigation>
