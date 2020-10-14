@@ -2,23 +2,23 @@
  * *
  *  * Created by DemonApps on 26.08.20 12:34
  *  * Copyright (c) 2020 . All rights reserved.
- *  * Last modified 10.08.20 21:40
+ *  * Last modified 24.08.20 19:09
  *
  */
 
-package ru.demonapps.oghevajamvdpro.ui.home;
+package ru.demonapps.pravovajamvd.ui.otvety;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class OtvetyViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public OtvetyViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("1");
+        mText.setValue("Фрагмент Ответы");
     }
 
     public LiveData<String> getText() {

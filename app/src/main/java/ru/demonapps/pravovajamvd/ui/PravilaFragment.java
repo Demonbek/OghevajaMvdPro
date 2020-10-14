@@ -1,14 +1,13 @@
 /*
  * *
- *  * Created by DemonApps on 26.08.20 12:48
+ *  * Created by DemonApps on 26.08.20 12:34
  *  * Copyright (c) 2020 . All rights reserved.
- *  * Last modified 26.08.20 12:48
+ *  * Last modified 26.08.20 12:34
  *
  */
 
-package ru.demonapps.oghevajamvdpro.ui;
+package ru.demonapps.pravovajamvd.ui;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -16,17 +15,15 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
-import ru.demonapps.oghevajamvdpro.BuildConfig;
-import ru.demonapps.oghevajamvdpro.R;
+import ru.demonapps.pravovajamvd.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link OnasFragment#newInstance} factory method to
+ * Use the {@link PravilaFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class OnasFragment extends Fragment {
+public class PravilaFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -37,7 +34,7 @@ public class OnasFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public OnasFragment() {
+    public PravilaFragment() {
         // Required empty public constructor
     }
 
@@ -47,11 +44,11 @@ public class OnasFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment OnasFragment.
+     * @return A new instance of fragment PravilaFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static OnasFragment newInstance(String param1, String param2) {
-        OnasFragment fragment = new OnasFragment();
+    public static PravilaFragment newInstance(String param1, String param2) {
+        PravilaFragment fragment = new PravilaFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -65,17 +62,13 @@ public class OnasFragment extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
-
         }
     }
 
-    @SuppressLint("SetTextI18n")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_onas, container, false);
-        TextView textView4 =root.findViewById(R.id.textView4);
-        textView4.setText("Версия: " + BuildConfig.VERSION_NAME);
-        return root;
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_pravila, container, false);
     }
 }

@@ -51,6 +51,15 @@
             android:gravity="center_horizontal"
             android:textSize="18sp"
             tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonPK"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/privacypolicy" />
+
     </LinearLayout>
 
 

@@ -6,7 +6,7 @@
  *
  */
 
-package ru.demonapps.oghevajamvdpro;
+package ru.demonapps.pravovajamvd;
 
 import android.content.Context;
 
@@ -29,6 +29,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("ru.demonapps.oghevajamvdpro", appContext.getPackageName());
+        assertEquals("ru.demonapps.pravovajamvd", appContext.getPackageName());
     }
 }

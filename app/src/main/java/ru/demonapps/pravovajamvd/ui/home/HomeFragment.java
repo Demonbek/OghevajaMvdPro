@@ -6,8 +6,9 @@
  *
  */
 
-package ru.demonapps.oghevajamvdpro.ui.home;
+package ru.demonapps.pravovajamvd.ui.home;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -20,13 +21,14 @@ import androidx.annotation.NonNull;
 import  java.util.Random;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
-import ru.demonapps.oghevajamvdpro.Bilet;
-import ru.demonapps.oghevajamvdpro.R;
+import ru.demonapps.pravovajamvd.Bilet;
+import ru.demonapps.pravovajamvd.R;
 
 public class HomeFragment extends Fragment implements View.OnClickListener {
     Button bdn, bup, button3, brnd;
     TextView textView2;
     int bilet;
+    @SuppressLint("SetTextI18n")
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         HomeViewModel homeViewModel = ViewModelProviders.of(this).get(HomeViewModel.class);
@@ -46,6 +48,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
