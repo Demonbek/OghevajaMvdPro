@@ -6,7 +6,7 @@
  *
  */
 
-package ru.demonapps.pravovajamvd.ui.home;
+package ru.demonapps.ognevajamvdpro.ui.home;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -21,8 +21,8 @@ import androidx.annotation.NonNull;
 import  java.util.Random;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
-import ru.demonapps.pravovajamvd.Bilet;
-import ru.demonapps.pravovajamvd.R;
+import ru.demonapps.ognevajamvdpro.Bilet;
+import ru.demonapps.ognevajamvdpro.R;
 
 public class HomeFragment extends Fragment implements View.OnClickListener {
     Button bdn, bup, button3, brnd;

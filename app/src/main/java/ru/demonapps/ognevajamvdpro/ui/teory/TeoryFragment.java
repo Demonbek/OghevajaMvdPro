@@ -6,7 +6,7 @@
  *
  */
 
-package ru.demonapps.pravovajamvd.ui.teory;
+package ru.demonapps.ognevajamvdpro.ui.teory;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -22,7 +22,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
-import ru.demonapps.pravovajamvd.R;
+import ru.demonapps.ognevajamvdpro.R;
 
 public class TeoryFragment extends Fragment {
     WebView teoryWeb;

@@ -6,7 +6,7 @@
  *
  */
 
-package ru.demonapps.pravovajamvd.ui.otvety;
+package ru.demonapps.ognevajamvdpro.ui.otvety;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -22,7 +22,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
-import ru.demonapps.pravovajamvd.R;
+import ru.demonapps.ognevajamvdpro.R;
 
 public class OtvetyFragment extends Fragment {
     TextView textOtvety,textNbileta;

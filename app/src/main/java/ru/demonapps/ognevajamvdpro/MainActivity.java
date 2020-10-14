@@ -6,7 +6,7 @@
  *
  */
 
-package ru.demonapps.pravovajamvd;
+package ru.demonapps.ognevajamvdpro;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -6,7 +6,7 @@
  *
  */
 
-package ru.demonapps.pravovajamvd.ui;
+package ru.demonapps.ognevajamvdpro.ui;
 
 import android.os.Bundle;
 
@@ -16,7 +16,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import ru.demonapps.pravovajamvd.R;
+import ru.demonapps.ognevajamvdpro.R;
 
 /**
  * A simple {@link Fragment} subclass.

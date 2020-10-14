@@ -6,7 +6,7 @@
  *
  */
 
-package ru.demonapps.pravovajamvd;
+package ru.demonapps.ognevajamvdpro;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;

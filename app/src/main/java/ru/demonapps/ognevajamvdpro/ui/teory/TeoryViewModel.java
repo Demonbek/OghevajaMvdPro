@@ -6,7 +6,7 @@
  *
  */
 
-package ru.demonapps.pravovajamvd.ui.teory;
+package ru.demonapps.ognevajamvdpro.ui.teory;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
