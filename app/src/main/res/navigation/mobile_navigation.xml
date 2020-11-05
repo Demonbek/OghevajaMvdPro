@@ -15,29 +15,29 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="ru.demonapps.ognevajamvdpro.ui.home.HomeFragment"
+        android:name="ru.demonapps.oghevajamvdpro.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_otvety"
-        android:name="ru.demonapps.ognevajamvdpro.ui.otvety.OtvetyFragment"
+        android:name="ru.demonapps.oghevajamvdpro.ui.otvety.OtvetyFragment"
         android:label="@string/menu_otvety"
         tools:layout="@layout/fragment_otvety" />
 
     <fragment
         android:id="@+id/nav_teory"
-        android:name="ru.demonapps.ognevajamvdpro.ui.teory.TeoryFragment"
+        android:name="ru.demonapps.oghevajamvdpro.ui.teory.TeoryFragment"
         android:label="@string/menu_teory"
         tools:layout="@layout/fragment_teory" />
     <fragment
         android:id="@+id/nav_praila"
-        android:name="ru.demonapps.ognevajamvdpro.ui.PravilaFragment"
+        android:name="ru.demonapps.oghevajamvdpro.ui.PravilaFragment"
         android:label="@string/menu_pravila"
         tools:layout="@layout/fragment_pravila" />
     <fragment
         android:id="@+id/nav_onas"
-        android:name="ru.demonapps.ognevajamvdpro.ui.OnasFragment"
+        android:name="ru.demonapps.oghevajamvdpro.ui.OnasFragment"
         android:label="@string/menu_onas"
         tools:layout="@layout/fragment_pravila" />
 </navigation>

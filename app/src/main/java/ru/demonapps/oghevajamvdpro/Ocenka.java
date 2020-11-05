@@ -6,10 +6,11 @@
  *
  */
 
-package ru.demonapps.ognevajamvdpro;
+package ru.demonapps.oghevajamvdpro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -22,6 +23,7 @@ public class Ocenka extends AppCompatActivity implements View.OnClickListener {
     Button btnOcenka, btnOshibki;
     TextView textOcenka, textOshibki, textKolOsh;
     ImageView imageOcenka;
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +39,7 @@ public class Ocenka extends AppCompatActivity implements View.OnClickListener {
         btnOcenka.setOnClickListener(this);
         btnOshibki = findViewById(R.id.btnOshibki);
         btnOshibki.setOnClickListener(this);
-        textKolOsh.setText("У Вас: "+(20-verno)+" ошибок.");
+        textKolOsh.setText("Ошибок : "+(20-verno));
         textOshibki.setText(oshibki);
         if (verno<16){
             imageOcenka.setImageResource(R.drawable.ne_zachet);
@@ -49,6 +51,7 @@ public class Ocenka extends AppCompatActivity implements View.OnClickListener {
         }
     }
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public void onClick(View view) {
         switch(view.getId())  {

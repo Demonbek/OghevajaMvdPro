@@ -6,7 +6,7 @@
  *
  */
 
-package ru.demonapps.ognevajamvdpro.ui.home;
+package ru.demonapps.oghevajamvdpro.ui.home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

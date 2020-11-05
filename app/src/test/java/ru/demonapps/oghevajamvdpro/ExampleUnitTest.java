@@ -6,7 +6,7 @@
  *
  */
 
-package ru.demonapps.ognevajamvdpro;
+package ru.demonapps.oghevajamvdpro;
 
 import org.junit.Test;
 

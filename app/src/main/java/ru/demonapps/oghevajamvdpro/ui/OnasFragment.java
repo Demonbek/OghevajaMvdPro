@@ -6,7 +6,7 @@
  *
  */
 
-package ru.demonapps.ognevajamvdpro.ui;
+package ru.demonapps.oghevajamvdpro.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -21,8 +21,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import ru.demonapps.ognevajamvdpro.BuildConfig;
-import ru.demonapps.ognevajamvdpro.R;
+import ru.demonapps.oghevajamvdpro.BuildConfig;
+import ru.demonapps.oghevajamvdpro.R;
 
 /**
  * A simple {@link Fragment} subclass.
