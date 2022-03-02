@@ -26,13 +26,11 @@ import ru.demonapps.oghevajamvdpro.R;
 
 public class TeoryFragment extends Fragment {
     WebView teoryWeb;
-    private TeoryViewModel teoryViewModel;
     String url = "file:///android_asset/teory/Prikaz880.html";
     @SuppressLint("SetJavaScriptEnabled")
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        teoryViewModel =
-                ViewModelProviders.of(this).get(TeoryViewModel.class);
+        TeoryViewModel teoryViewModel = ViewModelProviders.of(this).get(TeoryViewModel.class);
         setHasOptionsMenu(true);
         View root = inflater.inflate(R.layout.fragment_teory, container, false);
         teoryWeb = root.findViewById(R.id.teoryWeb);
@@ -43,10 +41,11 @@ public class TeoryFragment extends Fragment {
         return root;
     }
     @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+    public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
         inflater.inflate(R.menu.teory_menu, menu);
     }
+    @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection

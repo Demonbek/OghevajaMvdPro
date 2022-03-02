@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModel;
 
 public class OtvetyViewModel extends ViewModel {
 
-    private MutableLiveData<String> mText;
+    private final MutableLiveData<String> mText;
 
     public OtvetyViewModel() {
         mText = new MutableLiveData<>();

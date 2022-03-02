@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModel;
 
 public class TeoryViewModel extends ViewModel {
 
-    private MutableLiveData<String> mText;
+    private final MutableLiveData<String> mText;
 
     public TeoryViewModel() {
         mText = new MutableLiveData<>();

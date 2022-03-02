@@ -20,9 +20,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import  java.util.Random;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProviders;
 import ru.demonapps.oghevajamvdpro.Bilet;
 import ru.demonapps.oghevajamvdpro.R;
+import ru.demonapps.oghevajamvdpro.ui.otvety.OtvetyViewModel;
 
 public class HomeFragment extends Fragment implements View.OnClickListener {
     Button bdn, bup, button3, brnd;
@@ -48,7 +50,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
     }
 
-    @SuppressLint("SetTextI18n")
+    @SuppressLint({"SetTextI18n", "NonConstantResourceId"})
     @Override
     public void onClick(View view) {
         switch (view.getId()) {

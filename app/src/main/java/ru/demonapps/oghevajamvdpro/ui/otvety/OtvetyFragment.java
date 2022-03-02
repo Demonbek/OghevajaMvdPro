@@ -49,7 +49,7 @@ public class OtvetyFragment extends Fragment {
         super.onCreateOptionsMenu(menu, inflater);
         inflater.inflate(R.menu.otvety_menu, menu);
     }
-    @SuppressLint("SetTextI18n")
+    @SuppressLint({"SetTextI18n", "NonConstantResourceId"})
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
